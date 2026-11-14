@@ -10,6 +10,7 @@ export class CardShowcaseView {
     this.card3d = null;
     this.printSheet = null;
     this.showPrintMode = false;
+    this.render();
   }
 
   render() {

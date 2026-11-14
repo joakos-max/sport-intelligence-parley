@@ -4,6 +4,7 @@ export class LandingPage {
   constructor(containerId, options = {}) {
     this.container = document.getElementById(containerId);
     this.options = options;
+    this.render();
   }
 
   render() {
