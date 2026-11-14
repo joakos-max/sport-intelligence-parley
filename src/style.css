@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-red: #D91C24;
+    --brand-red-dark: #A50F16;
+    --brand-dark: #0A0D14;
+    --brand-gold: #F59E0B;
+  }
+
+  body {
+    background-color: #0A0D14;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: 'Oswald', 'Bebas Neue', sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
+
+/* 3D Card Transform Presets */
+.preserve-3d {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0D14;
+}
+::-webkit-scrollbar-thumb {
+  background: #252D3D;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D91C24;
+}
+
+/* Print Styles for PVC Card / Imprenta */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+
+  header, nav, #nav-container, .card-scene, .no-print, button {
+    display: none !important;
+  }
+
+  #print-sheet-mount, .print-sheet-wrapper {
+    display: block !important;
+    background: white !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .print-card-box {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 20mm;
+  }
+}
