@@ -119,18 +119,18 @@ export class PlayerPortal {
           </div>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-4">
-            <!-- Pronóstico Hípico -->
+            <!-- Pronóstico Fútbol Champions -->
             <div class="bg-black/40 border border-white/10 rounded-xl p-3.5 flex items-start gap-3">
-              <div class="p-2 rounded-lg bg-amber-500/10 text-amber-400 border border-amber-500/20 text-lg">
-                🏇
+              <div class="p-2 rounded-lg bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-lg">
+                ⚽
               </div>
               <div>
                 <div class="flex items-center gap-2">
-                  <span class="text-[10px] font-bold text-amber-400 uppercase tracking-wider">FIJO LA RINCONADA</span>
-                  <span class="text-[10px] font-mono text-emerald-400">95% Confianza</span>
+                  <span class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider">CHAMPIONS LEAGUE</span>
+                  <span class="text-[10px] font-mono text-emerald-400">88% Confianza</span>
                 </div>
-                <h4 class="font-bold text-white text-xs mt-0.5">Miss Barinitas #2 (3ª Válida 5y6)</h4>
-                <p class="text-[11px] text-gray-400 mt-1 leading-snug">Jinete F. Quevedo con 4 aprontes ganados. Cuota de valor 1.95.</p>
+                <h4 class="font-bold text-white text-xs mt-0.5">Real Madrid vs Man City - Ambos Marcan</h4>
+                <p class="text-[11px] text-gray-400 mt-1 leading-snug">Promedio de 3.4 goles por encuentro en sus últimos 5 enfrentamientos directos.</p>
               </div>
             </div>
 
@@ -251,57 +251,51 @@ export class PlayerPortal {
             </div>
           </div>
 
-          <!-- TICKET 2: CUADRO 5 Y 6 LA RINCONADA -->
+          <!-- TICKET 2: PARLEY COMBINADA BÉISBOL LVBP & MLB -->
           <div class="bg-gradient-to-br from-[#141824] to-[#0D1017] border border-white/10 rounded-2xl p-5 shadow-lg relative overflow-hidden">
             <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-white/10 gap-2">
               <div class="flex items-center gap-3">
-                <span class="px-2.5 py-1 rounded-lg text-xs font-black bg-amber-500/20 text-amber-400 border border-amber-500/30">
-                  5 Y 6 NACIONAL
+                <span class="px-2.5 py-1 rounded-lg text-xs font-black bg-blue-500/20 text-blue-400 border border-blue-500/30">
+                  PARLEY BÉISBOL
                 </span>
                 <div>
-                  <h4 class="font-bold text-white text-sm">Cuadro Sellado - La Rinconada</h4>
-                  <span class="text-xs text-gray-400 font-mono">Ticket #TK-HP-40815 • Domingo Oficial</span>
+                  <h4 class="font-bold text-white text-sm">Combinada Pelota Criolla & MLB (3 Logros)</h4>
+                  <span class="text-xs text-gray-400 font-mono">Ticket #TK-PA-99380 • Hoy 07:00 PM</span>
                 </div>
               </div>
 
               <div>
-                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
-                  SELLADO EN SISTEMA
+                <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-blue-500/20 text-blue-400 border border-blue-500/30">
+                  JUGADA VALIDADA
                 </span>
               </div>
             </div>
 
-            <!-- Detalle de las 6 válidas -->
-            <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 my-4">
-              <div class="bg-black/30 border border-white/5 rounded-lg p-2.5 text-xs">
-                <span class="text-[10px] text-amber-400 font-bold block">1ª Válida (C5)</span>
-                <span class="font-bold text-white">#4 Gran Trueno</span>
+            <!-- Detalle de los logros de béisbol -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2.5 my-4">
+              <div class="bg-black/30 border border-white/5 rounded-xl p-3 text-xs">
+                <span class="text-[10px] text-blue-400 font-bold block">⚾ LVBP (07:30 PM)</span>
+                <span class="font-bold text-white block mt-0.5">Tiburones a Ganar</span>
+                <span class="text-[10px] text-gray-400">Cuota 1.90 • Universitario</span>
               </div>
-              <div class="bg-black/30 border border-white/5 rounded-lg p-2.5 text-xs">
-                <span class="text-[10px] text-amber-400 font-bold block">2ª Válida (C6)</span>
-                <span class="font-bold text-white">#7 Catire Pedro</span>
+              <div class="bg-black/30 border border-white/5 rounded-xl p-3 text-xs">
+                <span class="text-[10px] text-blue-400 font-bold block">⚾ LVBP (07:00 PM)</span>
+                <span class="font-bold text-white block mt-0.5">Leones vs Magallanes Alta 9.5</span>
+                <span class="text-[10px] text-gray-400">Cuota 1.85 • Monumental</span>
               </div>
-              <div class="bg-black/30 border border-white/5 rounded-lg p-2.5 text-xs">
-                <span class="text-[10px] text-amber-400 font-bold block">3ª Válida (C7)</span>
-                <span class="font-bold text-white">#2 Miss Barinitas (Fijo)</span>
-              </div>
-              <div class="bg-black/30 border border-white/5 rounded-lg p-2.5 text-xs">
-                <span class="text-[10px] text-amber-400 font-bold block">4ª Válida (C8)</span>
-                <span class="font-bold text-white">#9 Don Fello</span>
-              </div>
-              <div class="bg-black/30 border border-white/5 rounded-lg p-2.5 text-xs">
-                <span class="text-[10px] text-amber-400 font-bold block">5ª Válida (C9)</span>
-                <span class="font-bold text-white">#1 Sra. Florencia</span>
-              </div>
-              <div class="bg-black/30 border border-white/5 rounded-lg p-2.5 text-xs">
-                <span class="text-[10px] text-amber-400 font-bold block">6ª Válida (C10)</span>
-                <span class="font-bold text-white">#5 El Gran Sol</span>
+              <div class="bg-black/30 border border-white/5 rounded-xl p-3 text-xs">
+                <span class="text-[10px] text-blue-400 font-bold block">⚾ MLB (10:10 PM)</span>
+                <span class="font-bold text-white block mt-0.5">LA Dodgers -1.5 Runline</span>
+                <span class="text-[10px] text-gray-400">Cuota 1.70 • Dodger Stadium</span>
               </div>
             </div>
 
             <div class="pt-3 border-t border-white/10 flex items-center justify-between text-xs">
-              <span class="text-gray-400">Pozo estimado Cuadro Único con 6: <strong class="text-white">$ 120,000 USD</strong></span>
-              <span class="font-mono text-gray-500">INH Validado</span>
+              <div class="flex items-center gap-6">
+                <span>Apostado: <strong class="text-white">$ 15.00 USD</strong></span>
+                <span>Premio Potencial: <strong class="text-emerald-400">$ 89.50 USD</strong></span>
+              </div>
+              <span class="font-mono text-gray-400">Sport Intelligence Validado</span>
             </div>
           </div>
         </div>

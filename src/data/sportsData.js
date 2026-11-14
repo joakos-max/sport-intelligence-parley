@@ -1,52 +1,6 @@
-// Datos de deportes adaptados a Venezuela: Hipismo (La Rinconada, carreras 5y6), Béisbol (LVBP y MLB), Fútbol y Baloncesto
+// Datos de deportes de parley en Venezuela: Béisbol (LVBP y MLB), Baloncesto (NBA y SPB) y Fútbol
 
 export const SPORTS_DATA = {
-  // Carreras de caballos - Hipódromo La Rinconada & Internacional
-  horses: {
-    venue: "Hipódromo La Rinconada (Caracas)",
-    date: "Domingo de Carreras - Reunión Oficial",
-    pool5y6: "$ 120,000 USD Estimado al Cuadro Único",
-    races: [
-      {
-        id: "R1",
-        raceNumber: "1ª Válida del 5 y 6 (Carrera 5)",
-        distance: "1,200 metros",
-        postTime: "02:15 PM",
-        favorite: "Gran Trueno #4 (J. Lugo)",
-        odds: "2.40",
-        contenders: [
-          { number: 4, name: "Gran Trueno", jockey: "J. Lugo", weight: "54 kg", odds: "2.40", isAiPick: true, confidence: "92%" },
-          { number: 7, name: "Catire Pedro", jockey: "H. Medina", weight: "53 kg", odds: "3.50", isAiPick: false },
-          { number: 2, name: "The King Zeus", jockey: "R. Capriles", weight: "55 kg", odds: "4.80", isAiPick: false },
-          { number: 9, name: "Don Fello", jockey: "J. Aranguren", weight: "52 kg", odds: "7.00", isAiPick: false }
-        ]
-      },
-      {
-        id: "R2",
-        raceNumber: "3ª Válida del 5 y 6 (Carrera 7) - Clásico Especial",
-        distance: "1,600 metros",
-        postTime: "03:25 PM",
-        favorite: "Miss Barinitas #2 (F. Quevedo)",
-        odds: "1.95",
-        contenders: [
-          { number: 2, name: "Miss Barinitas", jockey: "F. Quevedo", weight: "53 kg", odds: "1.95", isAiPick: true, confidence: "95%" },
-          { number: 5, name: "Queen Tita", jockey: "J. Herrera", weight: "54 kg", odds: "3.80", isAiPick: false },
-          { number: 8, name: "Princesa Manuela", jockey: "Y. Rodríguez", weight: "52 kg", odds: "6.20", isAiPick: false }
-        ]
-      }
-    ],
-    international: [
-      {
-        venue: "Gulfstream Park (Florida)",
-        race: "Race 8 - Allowance Optional Claiming",
-        distance: "1,400 m",
-        favorite: "Speeding Bullet (I. Ortiz Jr.)",
-        odds: "2.10",
-        aiPrediction: "Fijo Internacional de la tarde"
-      }
-    ]
-  },
-
   // Béisbol LVBP & MLB
   baseball: [
     {
@@ -92,10 +46,24 @@ export const SPORTS_DATA = {
         runline: { home: "-1.5 (1.75)", away: "+1.5 (2.10)" }
       },
       aiInsight: "Probabilidad de victoria de Yankees: 84%."
+    },
+    {
+      id: "bb-4",
+      league: "MLB",
+      match: "Los Angeles Dodgers vs San Diego Padres",
+      stadium: "Dodger Stadium",
+      time: "Hoy 10:10 PM",
+      status: "PROGRAMADO",
+      pitchers: "Y. Yamamoto vs D. Cease",
+      odds: {
+        moneyline: { home: "1.60", away: "2.35" },
+        runline: { home: "-1.5 (1.95)", away: "+1.5 (1.85)" }
+      },
+      aiInsight: "Yamamoto con 0.98 WHIP en sus últimas 3 aperturas."
     }
   ],
 
-  // Fútbol (Champions, Vinotinto, LaLiga)
+  // Fútbol (Champions League, Eliminatorias Vinotinto, Ligas Europeas)
   soccer: [
     {
       id: "sc-1",
@@ -195,19 +163,17 @@ export const MOCK_PLAYER_CARD = {
       ]
     },
     {
-      ticketId: "TK-HP-40815",
-      type: "CUADRO 5 Y 6 NACIONAL",
-      date: "Domingo de La Rinconada",
-      amountBet: 5.00,
-      potentialWin: 120000.00,
-      status: "SELLADO Y VALIDADO",
+      ticketId: "TK-PA-99380",
+      type: "PARLEY ESPECIAL BÉISBOL (3 LOGROS)",
+      date: "Hoy 07:00 PM",
+      amountBet: 15.00,
+      potentialWin: 89.50,
+      cashoutAvailable: false,
+      status: "VALIDADO Y EN ESPERA",
       legs: [
-        { sport: "🏇 1ª Válida", pick: "Gran Trueno #4 (Fijo Sport Intelligence)", result: "PENDING", label: "Carrera 5" },
-        { sport: "🏇 2ª Válida", pick: "Catire Pedro #7", result: "PENDING", label: "Carrera 6" },
-        { sport: "🏇 3ª Válida", pick: "Miss Barinitas #2 (Línea Nacional)", result: "PENDING", label: "Carrera 7" },
-        { sport: "🏇 4ª Válida", pick: "Don Fello #9", result: "PENDING", label: "Carrera 8" },
-        { sport: "🏇 5ª Válida", pick: "Señora Florencia #1", result: "PENDING", label: "Carrera 9" },
-        { sport: "🏇 6ª Válida", pick: "El Gran Sol #5", result: "PENDING", label: "Carrera 10" }
+        { sport: "⚾ LVBP", pick: "Tiburones de La Guaira a Ganar (1.90)", result: "PENDING", label: "Inicio 07:30 PM" },
+        { sport: "⚾ LVBP", pick: "Leones vs Magallanes - Alta 9.5 (1.85)", result: "PENDING", label: "Inicio 07:00 PM" },
+        { sport: "⚾ MLB", pick: "LA Dodgers Runline -1.5 (1.70)", result: "PENDING", label: "Inicio 10:10 PM" }
       ]
     }
   ],

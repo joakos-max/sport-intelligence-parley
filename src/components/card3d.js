@@ -112,7 +112,7 @@ export class Card3D {
                 </svg>
 
                 <div class="ml-auto text-right">
-                  <span class="text-[10px] font-bold text-red-500 tracking-wider uppercase block">PARLEY & HIPISMO</span>
+                  <span class="text-[10px] font-bold text-red-500 tracking-wider uppercase block">PARLEY EN VENEZUELA</span>
                   <span class="text-[9px] text-gray-400 font-medium">SALA VENEZUELA</span>
                 </div>
               </div>
@@ -160,7 +160,7 @@ export class Card3D {
                     </div>
                   </div>
                   <p class="text-[8px] leading-tight text-gray-400">
-                    Esta tarjeta es personal e intransferible. Válida para consultas de saldo, sellado de jugadas hípicas (5y6, La Rinconada), parleys y cobros express en taquilla Sport Intelligence. Venta prohibida a menores de 18 años.
+                    Esta tarjeta es personal e intransferible. Válida para consultas de saldo, sellado de parleys deportivos (LVBP, MLB, NBA, Fútbol), recargas y cobros express en taquilla Sport Intelligence. Venta prohibida a menores de 18 años.
                   </p>
                 </div>
 

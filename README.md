@@ -1,67 +1,69 @@
-# 🏆 Sport Intelligence - Plataforma de Parley, Hipismo & Tarjetas Inteligentes QR
+# 🏆 Sport Intelligence - La Nueva Era del Parley en Venezuela
 
-> Sistema integral para salas de apuestas deportivas y sportbooks en Venezuela. Incluye muestra 3D interactiva de tarjetas físicas de PVC con código QR dinámico, especificaciones industriales para imprenta (estándar CR-80 con marcas de corte), portal web móvil para jugadores y landing page comercial.
+> Landing page corporativa de alto impacto para salas de apuestas deportivas y sportbooks en Venezuela. Presenta el sistema de gestión y acceso mediante tarjetas con código QR, recargas en Bolívares por Pago Móvil / Binance Pay, calculadora interactiva de parleys en tiempo real y especificaciones técnicas para el local.
 
 ![Sport Intelligence Logo](/public/logo.jpg)
 
 ---
 
-## 📌 Resumen del Proyecto
+## 📌 Características Principales
 
-Este desarrollo fue creado para resolver la necesidad operativa de la empresa de apuestas **Sport Intelligence** en Venezuela (carreras de caballos La Rinconada / 5 y 6 nacional, béisbol LVBP y MLB, básquetbol NBA y fútbol internacional):
+1. **Diseño Visual de Alta Fidelidad**:
+   - Paleta deportiva Obsidian Dark (`#080B10`) con acentos rojo corporativo (`#E10600`) y dorado (`#F59E0B`).
+   - Tipografía atlética `Oswald` y `Plus Jakarta Sans`.
+   - Logotipo oficial de **Sport Intelligence** optimizado para visualización web.
+   - Titular principal: **"La Nueva Era del Parley en Venezuela"**.
 
-1. **Muestra y Prototipo de Impresión de Tarjetas Físicas**:
-   - Visualizador 3D realista con giro 360°, efecto holográfico especular y texturas en PVC (Obsidian VIP, Sport Red y Titanium).
-   - Datos personalizados: nombre del titular, serial único, chip EMV dorado simulado, símbolo contactless NFC, banda magnética y código de barras.
-   - **Hoja de Impresión Industrial CR-80**: Guías de corte (crop marks) y sangría de 3mm (bleed) lista para imprimir en tamaño real o exportar a PDF para máquinas de sublimación o tarjetas PVC (Fargo, Zebra, Evolis).
+2. **Mercados & Cuotas en Vivo**:
+   - ⚾ **Béisbol Criollo (LVBP)**: Leones del Caracas vs Navegantes del Magallanes (Monumental), Tiburones de La Guaira vs Cardenales de Lara.
+   - 🧢 **Grandes Ligas (MLB)**: New York Yankees vs Boston Red Sox.
+   - ⚽ **UEFA Champions League**: Real Madrid vs Manchester City (1X2, Ambos Marcan, +2.5 Goles).
+   - 🏀 **Baloncesto NBA**: Boston Celtics vs Los Angeles Lakers.
+   - 🇻🇪 **Eliminatorias Conmebol**: Venezuela vs Brasil en el Monumental de Maturín.
 
-2. **Código QR Dinámico y Funcional**:
-   - Generación en tiempo real del código QR mediante `qrcode` sobre canvas/vectorial.
-   - Detecta automáticamente el dominio de despliegue o permite personalizar el enlace hacia Vercel (`https://...#player`).
-   - Escaneable directamente con la cámara de cualquier teléfono celular.
+3. **Calculadora & Simulador de Parley en Tiempo Real**:
+   - Al hacer clic en cualquier cuota de los partidos, se suma dinámicamente a la boleta.
+   - Calcula la cuota multiplicada combinada al instante.
+   - Permite ingresar el monto a jugar en dólares y calcula la ganancia en **USD** y su equivalente en **Bolívares (VES)** a la tasa oficial.
 
-3. **Portal Móvil del Jugador (Lo que abre el QR)**:
-   - **Billetera Digital**: Consulta de saldo en Dólares ($245.50 USD) y su equivalencia en Bolívares (VES) a tasa oficial.
-   - **Recargas Adaptadas a Venezuela**: Pago Móvil inmediato (Banco de Venezuela 0102, Banesco 0134 con C2P), USDT Binance Pay y recarga en efectivo en taquilla.
-   - **Gestión de Jugadas & Cashout en Vivo**: Visualización de parleys combinados de 4 logros (LVBP, MLB, Champions, NBA) con botón de cobro anticipado interactivo, y cuadro sellado del 5 y 6 hípico nacional de La Rinconada.
-   - **Sport Intelligence AI**: Motor de análisis con recomendaciones y fijos deportivos con porcentajes de probabilidad.
-   - **Cobro Express**: Token QR seguro para retirar ganancias en taquilla sin esperar boletos de papel.
+4. **Especificaciones del Sistema de Tarjetas con Código QR**:
+   - Explica el funcionamiento del sistema para el local comercial:
+     * *Acceso móvil sin descargas*: El cliente apunta la cámara al QR de la tarjeta y abre la plataforma.
+     * *Cero pérdida de tickets*: Registro digital de todas las combinadas.
+     * *Cobro express en taquilla*: Retiro en caja mediante validación de token QR.
+     * *Recargas 24/7*: Soporte nativo para Pago Móvil (BDV, Banesco, Mercantil C2P) y Binance Pay (USDT).
+   - **Generador de Código QR en Vivo**: Renderizado directo con la librería `qrcode` sobre `<canvas>`, con input para personalizar la URL de destino y botón para **descargar la imagen PNG en alta resolución para la imprenta**.
 
-4. **Landing Page Corporativa**:
-   - Hero dinámico con el logotipo oficial.
-   - Ticker de cuotas y carreras destacadas en vivo.
-   - Sección de cobertura deportiva venezolana e internacional.
-   - Presentación de las ventajas de las tarjetas inteligentes para las salas de juego.
-   - Ubicación y contacto directo por WhatsApp.
+5. **Sport Intelligence AI Tech & Lounge VIP**:
+   - Presentación del motor algorítmico de análisis estadístico de pitcheo y cuotas con valor.
+   - Especificaciones de la sala VIP y atención directa por WhatsApp.
 
 ---
 
-## 🚀 Despliegue en Vercel y GitHub
+## 🚀 Despliegue en GitHub y Vercel
 
 ### Paso 1: Subir a GitHub
 ```bash
-git init
 git add .
-git commit -m "feat: Sport Intelligence platform, 3D smart card showcase, dynamic QR and player portal"
+git commit -m "feat: landing page La Nueva Era del Parley en Venezuela with interactive odds, parley calculator and dynamic QR generator"
 git branch -M main
-git remote add origin https://github.com/TU-USUARIO/sport-intelligence.git
+git remote add origin https://github.com/TU-USUARIO/sport-intelligence-venezuela.git
 git push -u origin main
 ```
 
 ### Paso 2: Desplegar en Vercel
 1. Ingresa a [Vercel](https://vercel.com/) e inicia sesión con tu cuenta de GitHub.
-2. Selecciona **"Add New Project"** e importa el repositorio `sport-intelligence`.
-3. Vercel detectará la configuración automáticamente (`Framework Preset: Vite`).
+2. Selecciona **"Add New Project"** e importa el repositorio.
+3. Vercel detectará el framework automáticamente (**Vite**).
 4. Haz clic en **Deploy**.
-5. ¡Listo! Vercel te entregará una URL pública (ejemplo: `https://sport-intelligence-venezuela.vercel.app`).
-6. En la pestaña de la tarjeta, ingresa esa URL con la terminación `#player` en el campo del QR para que las tarjetas impresas lleven a todos los clientes a la web en vivo.
+5. ¡Listo! Vercel te entregará la URL pública (ejemplo: `https://sport-intelligence-venezuela.vercel.app`).
+6. En la sección **"Sistema de Acceso con Código QR"** de la página, coloca tu URL pública en el campo de texto y el código QR se actualizará automáticamente para que cualquier teléfono que lo escanee ingrese a tu sitio en vivo.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías
 
 - **Vite 6** & **Node.js**
-- **Tailwind CSS v4** con soporte para componentes modernos y responsivos
-- **QRCode.js** para renderizado dinámico de códigos QR en alta resolución
-- **Canvas-Confetti** para microinteracciones de cobro y recarga
-- **Google Fonts**: Oswald (titulares de impacto deportivo) y Plus Jakarta Sans
+- **Tailwind CSS v4**
+- **QRCode.js** (generación cliente en canvas y descarga PNG)
+- **Google Fonts** (Oswald, Plus Jakarta Sans, JetBrains Mono)

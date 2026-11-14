@@ -36,11 +36,11 @@ export class LandingPage {
               </div>
 
               <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black text-white uppercase tracking-tight leading-none">
-                La Nueva Era del Parley & Hipismo en <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500">Venezuela</span>
+                La Nueva Era del Parley en <span class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-500">Venezuela</span>
               </h1>
 
               <p class="text-base sm:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
-                Olvídate de los tickets de papel perdidos. Con tu <strong>Tarjeta Sport Intelligence</strong> disfrutas de recargas instantáneas por Pago Móvil, consultas tu saldo con el código QR y cobras tus ganancias en taquilla sin esperas.
+                Olvídate de los tickets de papel perdidos. Con tu <strong>Tarjeta Sport Intelligence</strong> disfrutas de recargas instantáneas por Pago Móvil, consultas tus parleys y logros con el código QR y cobras tus premios en taquilla sin colas.
               </p>
 
               <!-- Botones Call to Action -->
@@ -64,24 +64,11 @@ export class LandingPage {
             <!-- Ticker de deportes en vivo -->
             <div class="mt-14 pt-8 border-t border-white/10">
               <div class="text-xs uppercase font-mono text-gray-400 mb-3 text-center tracking-widest font-semibold">
-                ● Cuotas & Carreras Destacadas de Hoy
+                ● Cuotas de Parley Destacadas de Hoy
               </div>
               <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
                 
-                <!-- Card 1: Hipismo La Rinconada -->
-                <div class="bg-black/40 border border-white/10 rounded-xl p-3.5">
-                  <div class="flex items-center justify-between text-[11px] text-amber-400 font-bold mb-1">
-                    <span>🏇 LA RINCONADA</span>
-                    <span class="text-white font-mono">C5 • 5y6</span>
-                  </div>
-                  <h4 class="text-xs font-bold text-white">#4 Gran Trueno (J. Lugo)</h4>
-                  <div class="flex items-center justify-between mt-2 pt-2 border-t border-white/5 text-[11px]">
-                    <span class="text-gray-400">Cuota Ganador</span>
-                    <span class="font-mono font-bold text-emerald-400">2.40</span>
-                  </div>
-                </div>
-
-                <!-- Card 2: Béisbol LVBP -->
+                <!-- Card 1: Béisbol LVBP -->
                 <div class="bg-black/40 border border-white/10 rounded-xl p-3.5">
                   <div class="flex items-center justify-between text-[11px] text-blue-400 font-bold mb-1">
                     <span>⚾ LVBP VENEZUELA</span>
@@ -91,6 +78,19 @@ export class LandingPage {
                   <div class="flex items-center justify-between mt-2 pt-2 border-t border-white/5 text-[11px]">
                     <span class="text-gray-400">Moneyline</span>
                     <span class="font-mono font-bold text-emerald-400">1.82 - 2.05</span>
+                  </div>
+                </div>
+
+                <!-- Card 2: Béisbol MLB -->
+                <div class="bg-black/40 border border-white/10 rounded-xl p-3.5">
+                  <div class="flex items-center justify-between text-[11px] text-blue-400 font-bold mb-1">
+                    <span>⚾ GRANDES LIGAS MLB</span>
+                    <span class="text-white font-mono">07:05 PM</span>
+                  </div>
+                  <h4 class="text-xs font-bold text-white">NY Yankees vs Red Sox</h4>
+                  <div class="flex items-center justify-between mt-2 pt-2 border-t border-white/5 text-[11px]">
+                    <span class="text-gray-400">Runline -1.5</span>
+                    <span class="font-mono font-bold text-emerald-400">1.75</span>
                   </div>
                 </div>
 
@@ -151,7 +151,7 @@ export class LandingPage {
                 </div>
                 <h3 class="text-lg font-bold text-white mb-2">Cero Papeles, Todo al QR</h3>
                 <p class="text-xs text-gray-400 leading-relaxed">
-                  El cliente escanea el QR de su tarjeta con cualquier teléfono inteligente y ve de inmediato su saldo, sus jugadas activas del parley y su cuadro del 5y6 sellado.
+                  El cliente escanea el QR de su tarjeta con cualquier teléfono inteligente y ve de inmediato su saldo, sus logros del parley en vivo y sus boletos combinados validados.
                 </p>
               </div>
 
@@ -186,31 +186,31 @@ export class LandingPage {
         <section class="py-16 border-b border-white/10">
           <div class="max-w-6xl mx-auto px-4 sm:px-6">
             <div class="text-center max-w-2xl mx-auto mb-12">
-              <span class="text-xs font-mono font-bold text-amber-500 uppercase tracking-widest block mb-1">
-                COBERTURA TOTAL
+              <span class="text-xs font-mono font-bold text-red-500 uppercase tracking-widest block mb-1">
+                COBERTURA TOTAL DEPORTIVA
               </span>
               <h2 class="text-2xl sm:text-4xl font-black text-white uppercase">
-                Los Deportes que Mueven a Venezuela
+                Los Deportes que Mueven el Parley en Venezuela
               </h2>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               
-              <!-- Deporte 1: Hipismo -->
-              <div class="bg-gradient-to-b from-[#161B26] to-[#0D1017] border border-white/10 rounded-2xl p-5 hover:border-amber-500/40 transition-all">
-                <span class="text-3xl mb-3 block">🏇</span>
-                <h3 class="font-bold text-white text-base">Hipismo & 5 y 6</h3>
+              <!-- Deporte 1: Béisbol LVBP -->
+              <div class="bg-gradient-to-b from-[#161B26] to-[#0D1017] border border-white/10 rounded-2xl p-5 hover:border-blue-500/40 transition-all">
+                <span class="text-3xl mb-3 block">⚾</span>
+                <h3 class="font-bold text-white text-base">Béisbol Criollo LVBP</h3>
                 <p class="text-xs text-gray-400 mt-2 leading-relaxed">
-                  Reuniones oficiales del Hipódromo La Rinconada, Valencia y pistas internacionales: Gulfstream Park, Belmont y Saratoga con dividendos oficiales.
+                  La pasión de nuestra pelota: Leones del Caracas, Navegantes del Magallanes, Tiburones, Cardenales, Águilas, Tigres, Caribes y Bravos con líneas en vivo.
                 </p>
               </div>
 
-              <!-- Deporte 2: Béisbol -->
+              <!-- Deporte 2: Béisbol MLB -->
               <div class="bg-gradient-to-b from-[#161B26] to-[#0D1017] border border-white/10 rounded-2xl p-5 hover:border-blue-500/40 transition-all">
-                <span class="text-3xl mb-3 block">⚾</span>
-                <h3 class="font-bold text-white text-base">Béisbol LVBP & MLB</h3>
+                <span class="text-3xl mb-3 block">🧢</span>
+                <h3 class="font-bold text-white text-base">Grandes Ligas MLB</h3>
                 <p class="text-xs text-gray-400 mt-2 leading-relaxed">
-                  La pasión criolla: Leones, Magallanes, Tiburones, Cardenales y las Grandes Ligas con moneyline, runlines y combinadas especiales de pitcheo.
+                  Toda la temporada de las Mayores: moneyline a ganar, runlines (-1.5 / +1.5), altas y bajas de carreras y combinadas especiales de pitcheo.
                 </p>
               </div>
 
@@ -219,7 +219,7 @@ export class LandingPage {
                 <span class="text-3xl mb-3 block">🏀</span>
                 <h3 class="font-bold text-white text-base">Baloncesto NBA & SPB</h3>
                 <p class="text-xs text-gray-400 mt-2 leading-relaxed">
-                  Todos los cuartos de la NBA y la Superliga Profesional de Baloncesto venezolana: hándicaps, totales de puntos y actuaciones individuales.
+                  Cuartos y mitades de la NBA y la Superliga Profesional de Baloncesto de Venezuela: hándicaps, totales de puntos y actuaciones individuales.
                 </p>
               </div>
 
@@ -228,7 +228,7 @@ export class LandingPage {
                 <span class="text-3xl mb-3 block">⚽</span>
                 <h3 class="font-bold text-white text-base">Fútbol Mundial & Vinotinto</h3>
                 <p class="text-xs text-gray-400 mt-2 leading-relaxed">
-                  Champions League, Eliminatorias Sudamericanas, Copa Libertadores y Liga FUTVE con mercados de altas, tarjetas, tiros de esquina y goles.
+                  Champions League, Eliminatorias Sudamericanas con La Vinotinto, Premier League, LaLiga y Copa Libertadores con mercados de goles y ambos anotan.
                 </p>
               </div>
 

@@ -121,7 +121,7 @@ export class PrintSheet {
                       <span class="font-mono text-[10px] font-bold text-gray-900">${this.cardData.pin}</span>
                     </div>
                     <p class="text-[7px] leading-tight text-gray-400">
-                      Tarjeta autorizada para apuestas deportivas y carreras de caballos 5y6. Escanee el código QR para consultar saldo y tickets.
+                      Tarjeta oficial autorizada para apuestas deportivas de parley en Venezuela. Escanee el código QR para consultar saldo y tickets.
                     </p>
                   </div>
 
