@@ -4,7 +4,11 @@ class SportIntelligenceLanding {
   constructor() {
     this.selectedPicks = [];
     this.exchangeRateVES = 40.00;
-    this.currentQrUrl = window.location.origin + window.location.pathname;
+    // Si estamos en localhost, apuntar por defecto a la URL de producción de Vercel para que al escanear con el teléfono funcione de inmediato
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    this.currentQrUrl = isLocal 
+      ? 'https://sport-intelligence-parley.vercel.app' 
+      : (window.location.origin + window.location.pathname);
 
     this.init();
   }
